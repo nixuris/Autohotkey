@@ -21,3 +21,7 @@
     else
         WinMaximize 'A'
 }
+
+!p::Run 'taskmgr.exe'                       ; Task Manager
+!t::Run 'explorer.exe'                      ; File Explorer
+!s::Run 'explorer.exe ms-screenclip:'       ; interactive Snip & Sketch
